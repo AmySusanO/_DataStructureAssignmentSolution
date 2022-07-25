@@ -50,7 +50,7 @@ public class FindPair {
 		HashSet<Integer> set = new HashSet<Integer>();
 		
 		if(!findPairUtil(root,sum,set))
-			System.out.println();
+			System.out.println("Pair do not exist");
 	}
 	
 	public static void main(String[] args) {
@@ -75,17 +75,7 @@ public class FindPair {
 		
 		int sum = sc.nextInt();
 		
-//		root= fp.insert(root,40);
-//		root= fp.insert(root,20);
-//		root= fp.insert(root,60);
-//		root= fp.insert(root,10);
-//		root= fp.insert(root,30);
-//		root= fp.insert(root,50);
-//		root= fp.insert(root,70);
-		
-		
-		
-//		int sum = 80;
+
 		fp.findPairwithgivenSum(root,sum);
 	}
 
